@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2000000000000000000001 /* WinpinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000001 /* WinpinApp.swift */; };
+		AA2000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000002 /* AppDelegate.swift */; };
+		AA2000000000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000003 /* AppState.swift */; };
+		AA2000000000000000000004 /* WindowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000004 /* WindowModel.swift */; };
+		AA2000000000000000000005 /* WindowEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000005 /* WindowEnumerator.swift */; };
+		AA2000000000000000000006 /* WindowPinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000006 /* WindowPinning.swift */; };
+		AA2000000000000000000007 /* SkyLightPinningEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000007 /* SkyLightPinningEngine.swift */; };
+		AA2000000000000000000008 /* PinningCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000008 /* PinningCoordinator.swift */; };
+		AA2000000000000000000009 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000009 /* HotKeyManager.swift */; };
+		AA200000000000000000000A /* MenuBarPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000A /* MenuBarPanelView.swift */; };
+		AA200000000000000000000B /* WindowRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000B /* WindowRowView.swift */; };
+		AA200000000000000000000C /* PinnedSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000C /* PinnedSectionView.swift */; };
+		AA200000000000000000000D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000D /* SettingsView.swift */; };
+		AA200000000000000000000E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000E /* OnboardingView.swift */; };
+		AA200000000000000000000F /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100000000000000000000F /* PermissionManager.swift */; };
+		AA2000000000000000000010 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000010 /* PersistenceService.swift */; };
+		AA2000000000000000000011 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000011 /* Logger.swift */; };
+		AA2000000000000000000012 /* AXHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000012 /* AXHelper.swift */; };
+		AA2000000000000000000013 /* MirrorPinningEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000013 /* MirrorPinningEngine.swift */; };
+		AA2000000000000000000014 /* winpin.icns in Resources */ = {isa = PBXBuildFile; fileRef = AA1000000000000000000014 /* winpin.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1000000000000000000001 /* WinpinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinpinApp.swift; sourceTree = "<group>"; };
+		AA1000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA1000000000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		AA1000000000000000000004 /* WindowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowModel.swift; sourceTree = "<group>"; };
+		AA1000000000000000000005 /* WindowEnumerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowEnumerator.swift; sourceTree = "<group>"; };
+		AA1000000000000000000006 /* WindowPinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowPinning.swift; sourceTree = "<group>"; };
+		AA1000000000000000000007 /* SkyLightPinningEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyLightPinningEngine.swift; sourceTree = "<group>"; };
+		AA1000000000000000000008 /* PinningCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinningCoordinator.swift; sourceTree = "<group>"; };
+		AA1000000000000000000009 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		AA100000000000000000000A /* MenuBarPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPanelView.swift; sourceTree = "<group>"; };
+		AA100000000000000000000B /* WindowRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowRowView.swift; sourceTree = "<group>"; };
+		AA100000000000000000000C /* PinnedSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedSectionView.swift; sourceTree = "<group>"; };
+		AA100000000000000000000D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA100000000000000000000E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AA100000000000000000000F /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		AA1000000000000000000010 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		AA1000000000000000000011 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		AA1000000000000000000012 /* AXHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXHelper.swift; sourceTree = "<group>"; };
+		AA1000000000000000000013 /* MirrorPinningEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorPinningEngine.swift; sourceTree = "<group>"; };
+		AA1000000000000000000014 /* winpin.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = winpin.icns; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* winpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = winpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000017 /* winpin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = winpin.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0000000000000000000007 = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000017 /* winpin.entitlements */,
+				AA0000000000000000000008 /* winpin */,
+				AA000000000000000000000F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000003 /* winpin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000008 /* winpin */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000009 /* App */,
+				AA000000000000000000000A /* Core */,
+				AA000000000000000000000B /* UI */,
+				AA000000000000000000000C /* Services */,
+				AA000000000000000000000D /* Utilities */,
+				AA000000000000000000000E /* Resources */,
+			);
+			path = winpin;
+			sourceTree = "<group>";
+		};
+		AA0000000000000000000009 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000001 /* WinpinApp.swift */,
+				AA1000000000000000000002 /* AppDelegate.swift */,
+				AA1000000000000000000003 /* AppState.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000004 /* WindowModel.swift */,
+				AA1000000000000000000005 /* WindowEnumerator.swift */,
+				AA1000000000000000000006 /* WindowPinning.swift */,
+				AA1000000000000000000007 /* SkyLightPinningEngine.swift */,
+				AA1000000000000000000013 /* MirrorPinningEngine.swift */,
+				AA1000000000000000000008 /* PinningCoordinator.swift */,
+				AA1000000000000000000009 /* HotKeyManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000000A /* MenuBarPanelView.swift */,
+				AA100000000000000000000B /* WindowRowView.swift */,
+				AA100000000000000000000C /* PinnedSectionView.swift */,
+				AA100000000000000000000D /* SettingsView.swift */,
+				AA100000000000000000000E /* OnboardingView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA100000000000000000000F /* PermissionManager.swift */,
+				AA1000000000000000000010 /* PersistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA1000000000000000000011 /* Logger.swift */,
+				AA1000000000000000000012 /* AXHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AA000000000000000000000E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000016 /* Info.plist */,
+				AA1000000000000000000014 /* winpin.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000000000000000000002 /* winpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000000000000000000013 /* Build configuration list for PBXNativeTarget "winpin" */;
+			buildPhases = (
+				AA0000000000000000000004 /* Sources */,
+				AA0000000000000000000005 /* Frameworks */,
+				AA0000000000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = winpin;
+			productName = winpin;
+			productReference = AA0000000000000000000003 /* winpin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = AA0000000000000000000010 /* Build configuration list for PBXProject "winpin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = AA0000000000000000000007;
+			productRefGroup = AA000000000000000000000F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000000000000000000002 /* winpin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000000000000000000006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2000000000000000000014 /* winpin.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000000000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2000000000000000000001 /* WinpinApp.swift in Sources */,
+				AA2000000000000000000002 /* AppDelegate.swift in Sources */,
+				AA2000000000000000000003 /* AppState.swift in Sources */,
+				AA2000000000000000000004 /* WindowModel.swift in Sources */,
+				AA2000000000000000000005 /* WindowEnumerator.swift in Sources */,
+				AA2000000000000000000006 /* WindowPinning.swift in Sources */,
+				AA2000000000000000000007 /* SkyLightPinningEngine.swift in Sources */,
+				AA2000000000000000000013 /* MirrorPinningEngine.swift in Sources */,
+				AA2000000000000000000008 /* PinningCoordinator.swift in Sources */,
+				AA2000000000000000000009 /* HotKeyManager.swift in Sources */,
+				AA200000000000000000000A /* MenuBarPanelView.swift in Sources */,
+				AA200000000000000000000B /* WindowRowView.swift in Sources */,
+				AA200000000000000000000C /* PinnedSectionView.swift in Sources */,
+				AA200000000000000000000D /* SettingsView.swift in Sources */,
+				AA200000000000000000000E /* OnboardingView.swift in Sources */,
+				AA200000000000000000000F /* PermissionManager.swift in Sources */,
+				AA2000000000000000000010 /* PersistenceService.swift in Sources */,
+				AA2000000000000000000011 /* Logger.swift in Sources */,
+				AA2000000000000000000012 /* AXHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = winpin.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = winpin/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winpin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = winpin.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = winpin/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.winpin.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000000000000000000010 /* Build configuration list for PBXProject "winpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000011 /* Debug */,
+				AA0000000000000000000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000000000000000000013 /* Build configuration list for PBXNativeTarget "winpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000014 /* Debug */,
+				AA0000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0000000000000000000001 /* Project object */;
+}

@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# 构建产物（DMG、QA 备份、编译输出）
+build/
+build.orig/
+.build/
+.swiftpm/
+tests/.build/
+
+# Xcode 用户态文件
+xcuserdata/
+*.xcuserstate
+DerivedData/
