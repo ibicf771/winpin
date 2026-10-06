@@ -30,10 +30,13 @@ winpin 是一个常驻菜单栏的小工具。开会看参考文档、边写代�
 
 👉 **[下载最新版 DMG](https://github.com/ibicf771/winpin/releases/latest)** → 打开 DMG → 把 `winpin.app` 拖进「应用程序」
 
-### 方式二：国内直连下载
+### 方式二：国内直连下载（码云 Gitee，不用翻墙）
 
-> 蓝奏云直链：**待补充**（发布后会更新在这里，国内免登录、不限速）
-> Gitee 镜像仓库：**待补充**
+👉 **[Gitee 镜像仓库](https://gitee.com/ibicf771/winpin)** → 右侧「发行版」→ v1.4.3
+
+或者直接下载 DMG：**https://gitee.com/ibicf771/winpin/releases/download/v1.4.3/winpin-1.4.3-arm64.dmg**
+
+> 蓝奏云直链：**待补充**（备案后可以再加一条不限速通道）
 
 ### ⚠️ 第一次打开被系统拦截？
 
