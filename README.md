@@ -118,8 +118,16 @@ macOS 从 26 版起已把第三方真置顶（改窗口层级）的私有接口"
 
 ```bash
 scripts/build_release.sh   # 产出 build/Release/winpin.app（xcodebuild 主路径，swift build 兜底）
-scripts/make_dmg.sh        # 产出 build/winpin-1.4.3-arm64.dmg
+scripts/make_dmg.sh        # 产出 build/winpin-1.4.3-arm64.dmg（版本号自动读取 Info.plist）
 cd tests && swift test --disable-sandbox --enable-xctest   # 运行单元测试（32 项）
+```
+
+发布（自动同步 GitHub + 码云两端 Release 与 DMG）：
+
+```bash
+scripts/publish.sh              # 用现有 DMG 发布
+scripts/publish.sh --build      # 先构建再发布
+scripts/publish.sh --dry-run    # 只打印将要执行的命令
 ```
 
 - 技术栈：SwiftUI + AppKit，**零第三方依赖**

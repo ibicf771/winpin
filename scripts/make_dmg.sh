@@ -2,15 +2,20 @@
 # make_dmg.sh — 将 build/Release/winpin.app 打包为 DMG
 #
 # 优先使用 create-dmg（brew install create-dmg）；未安装时自动回退 hdiutil 方案。
-# 用法：scripts/make_dmg.sh
-# 产物：build/winpin-1.4.3-arm64.dmg
+# 用法：scripts/make_dmg.sh [版本号]
+#      不传版本号时，自动读取 Info.plist 的 CFBundleShortVersionString
+# 产物：build/winpin-<版本号>-arm64.dmg
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 APP="$ROOT/build/Release/winpin.app"
-DMG="$ROOT/build/winpin-1.4.3-arm64.dmg"
+
+PLIST="$ROOT/winpin/Resources/Info.plist"
+VERSION="${1:-$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$PLIST")}"
+DMG="$ROOT/build/winpin-${VERSION}-arm64.dmg"
+echo "==> 版本号: $VERSION"
 
 if [[ ! -d "$APP" ]]; then
   echo "!! 未找到 $APP，请先运行 scripts/build_release.sh" >&2
